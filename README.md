@@ -35,8 +35,8 @@ Two CNN architectures were trained and compared under identical optimisation con
 
 ## 5. Results
 * **Performance Metrics:**
-  * **Base Model:** Test Accuracy = **~98.8%**
-  * **Deeper Model:** Test Accuracy = **~99.1%**
+  * **Base Model:** Test Accuracy = **98.64%** | Test Loss = **0.0486**
+  * **Deeper Model:** Test Accuracy = **98.92%** | Test Loss = **0.0350**
 * **Confusion Analysis (Key Error Pairs):**
   * **True 4 predicted as 9:** Reduced from **24** instances in the baseline model to **13** in the deeper model.
   * **True 2 predicted as 8:** Reduced from **10** instances in the baseline model to **7** in the deeper model.
