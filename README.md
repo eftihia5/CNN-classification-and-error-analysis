@@ -52,4 +52,4 @@ Two CNN architectures were trained and compared under identical optimisation con
 
 ## 7. Reflection
 * **What Worked Well:** The controlled comparison clearly isolated the impact of network depth, demonstrating a meaningful reduction in the most prominent confusion pairs. EarlyStopping effectively prevented overfitting.
-* **Limitations & Future Improvements:** With more time, incorporating **data augmentation** (random rotations of ±10°, slight scaling) would help the model generalise better to irregular handwriting styles. Adding **Batch Normalization** and implementing a **reject option** (routing predictions with softmax probabilities < 0.90 to manual inspection) would be essential steps prior to real-world deployment.
+* **Limitations & Future Improvements:** With more time, incorporating **data augmentation** would help the model generalise better to irregular handwriting styles. Adding **Batch Normalization** and implementing a **reject option** would be essential steps prior to real-world deployment.
