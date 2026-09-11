@@ -1,7 +1,7 @@
 # CNN Digit Classification and Error Analysis: Where Does the Network Make Its Mistakes?
 
 ## 1. Project Title and Short Description
-**Title:** Handwritten Digit Classification & Error Analysis on MNIST  
+Title: *Handwritten Digit Classification & Error Analysis on MNIST*  
 This project builds and evaluates a Convolutional Neural Network (CNN) to recognise handwritten digits from the MNIST dataset. Beyond measuring raw classification accuracy, it investigates where the model fails, using confusion matrices to identify primary misclassification patterns, and evaluates whether a controlled architectural change (increasing network depth) meaningfully reduces these specific errors.
 
 ---
@@ -52,4 +52,4 @@ Two CNN architectures were trained and compared under identical optimisation con
 
 ## 7. Reflection
 * **What Worked Well:** The controlled comparison clearly isolated the impact of network depth, demonstrating a meaningful reduction in the most prominent confusion pairs. EarlyStopping effectively prevented overfitting.
-* **Limitations & Future Improvements:** With more time, incorporating **data augmentation** would help the model generalise better to irregular handwriting styles. Adding **Batch Normalization** and implementing a **reject option** would be essential steps prior to real-world deployment.
+* **Limitations & Future Improvements:** With more time, incorporating data augmentation would help the model generalise better to irregular handwriting styles. Adding Batch Normalization and implementing a reject option would be essential steps prior to real-world deployment.
