@@ -14,10 +14,10 @@ The goal is to accurately classify greyscale images of handwritten digits into 1
 
 ## 3. Data set
 The project uses the **MNIST** dataset retrieved from OpenML:
-* **Instances:** 70,000 greyscale images of handwritten digits (28×28 pixels).
+* **Instances:** 70.000 greyscale images of handwritten digits (28×28 pixels).
 * **Inputs:** Each image is represented as a 784-dimensional vector of pixel intensities (0–255).
 * **Target:** Integer labels from 0 to 9.
-* **Preprocessing:** Pixel intensities were normalised to the range [0.0, 1.0] by dividing by 255.0 and reshaped to `(28, 28, 1)`. The dataset was split into an 80% training set (56,000 samples) and a 20% test set (14,000 samples) using stratified sampling to preserve class distribution.
+* **Preprocessing:** Pixel intensities were normalised to the range [0.0, 1.0] by dividing by 255.0 and reshaped to `(28, 28, 1)`. The dataset was split into an 80% training set (56.000 samples) and a 20% test set (14.000 samples) using stratified sampling to preserve class distribution.
 
 ---
 
